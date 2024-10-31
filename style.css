@@ -984,3 +984,20 @@ body {
 .not-loaded * {
   animation-play-state: paused !important;
 }
+@media screen and (max-width: 768px) {
+  table {
+      display: block;
+      overflow-x: auto;
+      white-space: nowrap;
+  }
+  th, td {
+      font-size: 14px;
+      padding: 6px;
+  }
+}
+@media screen and (max-width: 480px) {
+  th, td {
+      font-size: 12px;
+      padding: 4px;
+  }
+}
